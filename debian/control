@@ -7,7 +7,8 @@ Build-Depends: debhelper (>= 9),
                dh-golang,
                golang-any,
                golang-github-nsf-termbox-go-dev,
-               golang-github-stretchr-testify-dev
+               golang-github-stretchr-testify-dev,
+               jq
 Standards-Version: 3.9.8
 Homepage: https://github.com/fiatjaf/jiq
 Vcs-Browser: https://salsa.debian.org/go-team/packages/jiq
@@ -19,7 +20,8 @@ Package: jiq
 Architecture: any
 Built-Using: ${misc:Built-Using}
 Depends: ${misc:Depends},
-         ${shlibs:Depends}
+         ${shlibs:Depends},
+         jq
 Description: jid on jq
  jiq Mentioned in Awesome jq (https://github.com/fiatjaf/awesome-jq)
  It's jid (https://github.com/simeji/jid) with jq
