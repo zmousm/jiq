@@ -1,3 +1,9 @@
+jiq (0.6.0+git20180423.0248239-1~grnet+3) unstable; urgency=medium
+
+  * Disable tests for now
+
+ -- Zenon Mousmoulas <zmousm@noc.grnet.gr>  Thu, 21 Jun 2018 13:09:09 +0300
+
 jiq (0.6.0+git20180423.0248239-1~grnet+2) unstable; urgency=medium
 
   * Add {build-,}dep on jq
