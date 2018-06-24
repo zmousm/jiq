@@ -1,3 +1,9 @@
+jiq (0.6.0+git20180622.a79e8b2-1~grnet+1) unstable; urgency=medium
+
+  * Drop patch 0001-Fix-tests.patch, merged upstream
+
+ -- Zenon Mousmoulas <zmousm@noc.grnet.gr>  Sun, 24 Jun 2018 23:00:18 +0300
+
 jiq (0.6.0+git20180622.a79e8b2-1) UNRELEASED; urgency=medium
 
   * New upstream version
